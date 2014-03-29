@@ -1,0 +1,17 @@
+Create a repository and put in readme document with ideas of final project.
+
+I have two trains of thought on my final project. One is a real world app, for which I have an application and some interested parties.  While it's not in the vein of data visualization of some of our class work, It would use Google maps/geolocation APIs, be quite useful, entertaining, and I feel like it could be within my capacity.  
+
+Data-based app idea >> West Medford Open Studios geo-location/interest-based map oriented Open Studios app to help people discover a new art and efficiently navigate to the sites. I would base it off of the 2013 website data and assetts and then test it during the 2014 event.  I would then further refine with WMOS board (of which I am a member) and prepare it for the 2015 event.  I would work with the Webdesigner and work out the best data capture/registration system to get as much of the content/data into a data set that could be consumed by the app.
+
+The second train is to do something with the BeagleBoard that is more art based.  I would likely want it to interface with a camera.
+
+BeagleBoad-based interactivity >> Interactive gallery/museum/open studio installation which allows for either a video recording or photo of the visitor observing a piece on the wall and then project in another room.  Possibly measure mood of face?  Also could have a polaroid output.  Perhaps introduce chance/randomness of what would produce a hard copy foto.
+
+Imagine an intriguing piece on the wall (a photograph, collage, painting).  By installing an observational camera watching the person observe the art, the artist can gauge reaction and/or incorporate the reaction into their art.  This leads to several questions how/where are they incorporated into the art.  Is it a separate installation in another room (perhaps another building) Where a video screen (computer/flat panel) shows the orignal art in the center and video loops of the observers circling or creating a border around it.  
+
+In addition the person who is observing the art, aware that they are being observed, might be interested in a polaroid photo (a souvenir, a take home, a piece of this installation). This polaroid photo would be produced on site, using a digital/polaroid (as seen recently at Urban Outfitters).
+
+3Doodler link: http://the3doodler.com/
+
+Mirror Cube Art link: http://themindunleashed.org/2014/03/happens-build-cube-one-way-mirrors.html
