@@ -15,7 +15,26 @@ Imagine an intriguing piece on the wall (a photograph, collage, painting).  By i
 In addition the person who is observing the art, aware that they are being observed, might be interested in a polaroid photo (a souvenir, a take home, a piece of this installation). This polaroid photo would be produced on site, using a digital/polaroid (as seen recently at Urban Outfitters).
 
 
-Two links that might spawn other ideas below.
+"SELFIE - PAPER OR PLASTIC?"  OR DIGITAL OR PRINT?"
+based on a custom hashtag, 
+Wall is divided >> One half is instagram selfies -- digitial displays?  One half has prints.
+To the left of digital, there is the a means to add to your digital selfie.
+maybe iPad on the wall, to take your own selfie, that can either be added to project with hashtag
+
+To the right is the selfie hooked up to the printer (thermal printer).  Can you take this with you or must you add it to the wall?
+This beagleboard-based instant print selfie, does not store a digital archive.  It can leave with the person.  
+Note that thermal printer is ~200 dpi and produces b/w bitmap images.  How does it work in the aesthetic?
+A more expensive approach would be to use a small 4x6 photo printer.
+
+For selfie effect.  I imagine, you would have to reach to the wall to click the picture, so that the user's arm is extended ala selfie stance.
+
+
+
+
+
+Thermal receipt printer: http://www.adafruit.com/products/597
+Polaroid Printer: http://www.amazon.com/Polaroid-GL10-Instant-Printer-Digital/dp/B004JKBVBY/ref=zg_bs_3109930011_7
+Canon Selphy: http://www.amazon.com/Canon-CP910-Portable-Wireless-Compact/dp/B00HK8V4NC/ref=dp_ob_title_ce
 
 3Doodler link: http://the3doodler.com/
 
