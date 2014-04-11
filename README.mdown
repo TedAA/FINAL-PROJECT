@@ -1,3 +1,39 @@
+INTERACTIVE BLACK BOX GALLERY FRAME
+Concept:  A black box frame for a photo (digital photo via iPad) or other art work.  A viewer would come to look at, observe, enjoy the art in the frame.  If they stay long enough (or meet some other criteria), a sensor would trigger a camera embedded in the frame making their action of observing art, as part of the art exhibit.  From there the image might 1) be projected elsewhere "the gallery participants,"  2) be printed to a small wireless printer and posted somewhere else in the gallery, perhaps surrounding this frame, or 3) be printed out via small wireless printer and the artist would matte the photo and sign it as a souvenir or as a product for sale.
+
+Currently I envision using some form of standard box frame available in a craft store, a beagle board, an old "deomissioned" iPhone 4S (after i get my new phone), an Infrared Proximity Sensor (or something like it), a 30-pin iOS devices to RS-232 serial devices cable, and a Canon SELPHY CP910 Black Portable Wireless Compact Photo Color Printer.
+
+A basic flow of events would be.
+1) Gallery participant comes to view the framed art
+2) There is a taped box on the floor where the participant shouldn't stand (could be a velvet rope) and two red foot prints directing the participant to the best place to stand
+3) Participant is detected for X seconds
+4) Detection + time triggers camera in phone to fire
+5 a) Digital -- participant photo appears in identical frame right next to the original art.  That photo will stay there until, another participant takes their place
+5 b) Print adding to exhibit.  Artist would have photos "automagically" print at nearby wireless printer OR would curate and print them himself via laptop or other device and then hang them on the wall or otherwise make them part of the exhibit
+5 c) Print - artist makes a sale.  Artists prints photo at nearby wireless printer.  Mattes the photo, signs the matte.  Sells it to participant.
+
+Rough Photoshop Sketch
+The Final Product
+http://www.tedadams.com/blackboxframe/black_box_frame_interactive_1.png
+
+Down One Layer - iPad
+http://www.tedadams.com/blackboxframe/black_box_frame_interactive_2.png
+
+Down Two Layers - the guts - beagle board, sensor, cable, iphone
+http://www.tedadams.com/blackboxframe/black_box_frame_interactive_3.png
+
+
+
+
+
+
+
+
+
+
+Below is my running thought process as i was trying to nail down the project.
+
+
 Create a repository and put in readme document with ideas of final project.
 
 I have two trains of thought on my final project. One is a real world app, for which I have an application and some interested parties.  While it's not in the vein of data visualization of some of our class work, It would use Google maps/geolocation APIs, be quite useful, entertaining, and I feel like it could be within my capacity.  
