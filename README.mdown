@@ -29,6 +29,8 @@ http://www.tedadams.com/blackboxframe/black_box_frame_interactive_3.png
 
 Related Links
 
+Consider https://ifttt.com/ios_photos
+
 Serial Cables (C2-DB9V and C2-DB9): http://redpark.com/serial-cable-115-2-kbps-c2-db9v/
 
 
