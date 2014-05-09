@@ -16,8 +16,9 @@ e.g.
 
 3) motion will trigger motion sensor and set off event on beagle board
 4) script needs to listen for motion trigger
-5) Fire off event which will fire camera on iPhone
+5) Fire off event which will fire camera on iPhone  (iPhone will be dedicated to this task, so we can assume that it has power, that it has the camera open)
 
+Concerns -- interfacing with iPhone (not sure how i will be able to do this)
 
 Additional
 Use IFTTT to have photo that appears in iOS photos to smug mug (via email upload feature)
