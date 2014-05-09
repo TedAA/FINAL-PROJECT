@@ -5,6 +5,8 @@ Tonight:
 Understanding of how to open communications between my 30-pin (iphone) to serial port to beagle board. (currently missing a DB9 Female to Female connector.) Currently understand that something must be installed to have communications go over the iPhone to serial connection.  Node?
 
 
+
+
 In one week:
 Detailed sketch of components and processes and what i would need to write to make them work.
 
@@ -13,6 +15,8 @@ e.g.
 1) sensor will connect to beagleboard via wires to a sensor port(?) -- should receive sensor tomorrow.
 
 2) usb to serial will connect double female serial (need double female to connect 30 pin/serial with serial/usb) will connect to 30pin will connect to iPhone.
+
+(http://redpark.com/developers/#sdk)
 
 3) motion will trigger motion sensor and set off event on beagle board
 4) script needs to listen for motion trigger
