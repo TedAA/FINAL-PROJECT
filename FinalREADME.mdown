@@ -1,0 +1,57 @@
+Final Project Concept
+
+User Story
+The interactive digital gallery frame is an attempt to make art gallery viewing more interactive, capturing an art viewer's reactions to the art and projecting an image of that participation onto a nearby gallery frame.  Initial concept is that the two would be adjacent, but the concept is meant to be a building block tool, which could evolve and spawn variations - a remote projection, multiple projections, a web-cam version, and various insta-prints.
+
+
+Sequence
+1) Gallery participant comes to view the framed art
+2) There is a taped line on the floor where the participant should stand (could be a velvet rope) and two red foot prints directing the participant to the best place to stand.
+3) Participant is detected by sensor - this would be an area for adjustment and trial and error user testing.
+4) Detection + time triggers camera in phone to fire.
+5 a) Digital -- participant photo appears in identical frame right next to the original art.  That photo will stay there until, another participant takes their place.
+5 b) Print adding to exhibit.  Artist would have photos "automagically" print at nearby wireless printer OR would curate and print them himself via laptop or other device and then hang them on the wall or otherwise make them part of the exhibit.
+5 c) Print - artist makes a sale.  Artists prints photo at nearby wireless printer.  Mattes the photo, signs the matte.  Sells it to participant.
+
+Materials
+Black Box frame capabale of framing an iPad or an 8x10 photo - can be found at a crafts store or frame shop
+Beaglebone 
+iPhone 4S - cleared of previous content, loaded with camera, IFTTT app, wifi-enabled (would likely not be on a calling plan) 
+30 pin (iPhone) to 9 pin (serial cable)
+9 pin female/female gender changer 
+Serial to USB cable
+Infrared Proximity Sensor - i've ordered this but didn't receive it, reordering it.  I don't have 100% confidence that this is the right sensor for the project.
+
+Programming Needs
+Infrared detection:  Take signal from sensor to trigger iPhone camera firing.  Would need to use ios SDK to take signal event to fire camera. I haven't done this yet.
+
+Photo sharing: To minimize programming at the beginning, especially for the prototyping, I will use an IFTTT recipe. The recipe will detect a new photo and email to my SmugMug account where they allow emailing photos into a system which then posts the photo to a directory. I've currenlty set this up and they are saving here: http://photos.tedadams.com/Other/Email/  I would configure this web gallery to show one photo (horizontally oriented)  in the framed iPad.
+
+
+Photoshop Sketch
+
+The Final Product
+http://www.tedadams.com/blackboxframe/black_box_frame_interactive_1.png
+
+Down One Layer - iPad
+http://www.tedadams.com/blackboxframe/black_box_frame_interactive_2.png
+
+Down Two Layers - the guts - beagle board, sensor, cables, iphone
+http://www.tedadams.com/blackboxframe/black_box_frame_interactive_3.png
+
+Continuing the Project
+The prototype is not complete and functioning. 
+For the hardware I still need to get a working motion detection sensor. I'm following up with the company on the part I'd ordered earlier.  The 9pin gender changer needs a little work. It came with tiny screw receivers on both sides, but the 30pin to 9pin cable also has that configuration.  My plan is to break them off of the gender changer (since it was cheaper)  the pin connection should be enough to keep the cable and the gender changer together. 
+
+Once I have the cables together and the iPhone connected to the Beagleboard, I will follow up with the procedures outlined on the SDK User guide on the redpark website (http://redpark.com/serial-cable-115-2-kbps-c2-db9v/).  First step is to make sure that the iPhone is OK with this foreign hardware, it should show up in the Settings.
+
+Next step is connecting the sensor to the beagleboard.  This procedure I expect to be very similar to the class project with the knob control.  I then intend to use javascript to translate the "sensing event" into a command to fire the camera. I'm still not entirely sure how I will get this to happen.
+
+From the camera firing, the IFTTT recipe will take over shooting off an email to the photo gallery (http://help.smugmug.com/customer/portal/articles/93286). Note that there were other approaches I could have taken with IFTTT and Instagram or Flickr, but I have greater familiarity with SmugMug as I have been using it as the technology behind my own photo website.  
+
+Up to this point I would consider this the first prototype.  Areas I could iterate on are with 1) the sensor (if this is the right hardware, what sensitivity would be most appropriate? Can I have it take time into consideration by only triggering an event after 5 or 10 seconds?)  2) having multiple, perhaps smaller, screens that would receive the photos of the participants, creating a larger community around the feature piece 3)putting the viewer images in another room, creating an exhibiton with the initial art removed 4) working a small printer into the configuration either via wifi or hardwired (usb or serial) to the Beagleboard.
+
+
+
+
+
